@@ -1,5 +1,5 @@
 # Enron Fraud Analysis with Machine Learning
-## By Sagarnil Das, in fulfillment of Udacity's Data Analyst Nanodegree, Project 6
+## By Sagarnil Das
 
 Enron, a multibillion dollar company in the heart of the Wall Street was one of the largest companies in the United States in 2000. By 2002, it collapsed into bankruptcy due to widespread corporate fraud. They reached a dizzying height only to face a plummeting collapse. The bankruptcy of Enron affected thousands of its employees and shook the whole Wall Street by its foundation. In the federal investigation that followed, all the emails from Enron employees were made public. Since then these emails have spreaded like a wildfire through the world and many analysis and investigations have been done on this data. In this project, my target is to build a Person of Interest identifier/Label and try to build a Machine Learning Algorithm to predict the possible Persons of Interest based on various features.
 
