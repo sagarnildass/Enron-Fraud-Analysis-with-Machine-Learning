@@ -5,6 +5,16 @@ Enron, a multibillion dollar company in the heart of the Wall Street was one of 
 
 I built a "person of interest" (POI) identifier to detect and predict culpable persons utilizing scikit-learn and machine learning methodologies, using features from financial data, email data, and labeled data--POIs who were indicted, reached a settlement or plea deal with the government, or testified in exchange for prosecution immunity.
 
+# Important files of the repository
+
+1. Enron Fraud Analysis with Machine Learning - Final Report.ipynb - Final report in Jupyter Notebook Markdown form.
+2. final_report.html - Final report in HTML format
+3. poi_id.py - All the preprocessing, feature scaling and Machine Learning codes
+4. final_project_dataset.pkl - The email features in final_project_dataset.pkl are aggregated from the email dataset, and they record the number of messages to or from a given person/email address, as well as the number of messages to or from a known POI email address and the number of messages that have shared receipt with a POI.
+5. tester.py : Codes to test your classifiers, features and dataset. You don't need to change this code.
+6. emails_by_address : This directory contains many text files, each of which contains all the messages to or from a particular email address. It is for your reference, if you want to create more advanced features based on the details of the emails dataset.
+
+
 # Goal of this Project
 
 The goal of this project was to utilize the financial and email data from Enron to build a predictive, analytic model that could identify whether an individual could be considered a "person of interest" (POI). Since the dataset contained labeled data--culpable persons were already listed as POIs--the value of this model on the existing dataset is limited. Rather, the potential value such a model may provide is in application to other datasets from other companies, to potentially identify suspects worth investigating further. The dataset contained 146 records with 14 financial features, 6 email features, and 1 labeled feature (POI). Of the 146 records, 18 were labeled, a priori, as persons of interest. Through exploratory data analysis and cursory spreadsheet/CSV review, I was able to identify 2 candidate records for removal:
