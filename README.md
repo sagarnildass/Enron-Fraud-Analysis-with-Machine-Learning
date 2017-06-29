@@ -8,7 +8,7 @@ I built a "person of interest" (POI) identifier to detect and predict culpable p
 # Important files of the repository
 
 1. Enron Fraud Analysis with Machine Learning - Final Report.ipynb - Final report in Jupyter Notebook Markdown form.
-2. final_report.html - Final report in HTML format
+2. Enron+Fraud+Analysis+with+Machine+Learning_Final+Report.html - Final report in HTML format
 3. poi_id.py - All the preprocessing, feature scaling and Machine Learning codes
 4. final_project_dataset.pkl - The email features in final_project_dataset.pkl are aggregated from the email dataset, and they record the number of messages to or from a given person/email address, as well as the number of messages to or from a known POI email address and the number of messages that have shared receipt with a POI.
 5. tester.py : Codes to test your classifiers, features and dataset. You don't need to change this code.
